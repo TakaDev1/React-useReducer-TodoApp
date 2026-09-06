@@ -1,5 +1,5 @@
 ---
-name: 個人開発用のIssueテンプレート
+name: Task_SoloDev
 about: プロジェクトの作業内容・目的・完了条件を管理するための汎用Issueテンプレートです。
 title: 'Task:'
 labels: ''
