@@ -4,7 +4,7 @@ export interface Todo {
   completed: boolean;
 }
 
-export type Todos = Todo[];
+export type State = Todo[];
 
 export type Action =
   | { type: "add"; text: string }
