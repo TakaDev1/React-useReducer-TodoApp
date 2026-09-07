@@ -6,13 +6,15 @@ import { TodoProvider } from "./features/todo/contexts/TodoContext";
 function App() {
   return (
     <>
-      <h1>React-useReducer-TodoApp</h1>
-      <TodoProvider>
-        <div>
-          <TodoList />
-          <TodoInput />
-        </div>
-      </TodoProvider>
+      <div className="min-h-screen flex flex-col justify-center">
+        <h1>React-useReducer-TodoApp</h1>
+        <TodoProvider>
+          <div>
+            <TodoList />
+            <TodoInput />
+          </div>
+        </TodoProvider>
+      </div>
     </>
   );
 }
