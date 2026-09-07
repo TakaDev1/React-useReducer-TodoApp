@@ -20,9 +20,14 @@ const TodoInput = () => {
     setText("");
   };
   return (
-    <div>
-      <input type="text" value={text} onChange={handleText} />
-      <button onClick={handleAdd}>追加</button>
+    <div className="w-1/3 flex justify-around mx-auto mt-10">
+      <input type="text" value={text} onChange={handleText} className="border rounded text-white" />
+      <button
+        onClick={handleAdd}
+        className="w-20 bg-gray-500 rounded-full hover:opacity-70 text-white cursor-pointer"
+      >
+        追加
+      </button>
     </div>
   );
 };
