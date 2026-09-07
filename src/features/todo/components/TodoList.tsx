@@ -4,7 +4,6 @@ import { useTodo } from "../contexts/TodoContext";
 const TodoList = () => {
   const { state, dispatch } = useTodo();
 
-  const handleToggle = () => {};
   return (
     <div>
       {state.length > 0 ? (
